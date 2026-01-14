@@ -296,7 +296,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const versionDisplay = document.getElementById('app-version-display');
     if (versionDisplay && window.dndQuickRefAppVersion) {
         versionDisplay.textContent = 'v' + window.dndQuickRefAppVersion;
-        // Make it look like a label rather than a disabled button
         versionDisplay.style.cursor = 'default';
         versionDisplay.style.pointerEvents = 'none';
     }
