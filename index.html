@@ -18,7 +18,7 @@
         // This logic is inlined in the HTML to ensure it runs even if the main JS file is cached.
         (function() {
             // Increment this version number when you deploy breaking changes or significant updates.
-            const CURRENT_APP_VERSION = '2.2.0-ru'; // Updated version
+            const CURRENT_APP_VERSION = '2.2.1-ru'; // Updated version
             window.dndQuickRefAppVersion = CURRENT_APP_VERSION; // Expose version for other scripts
             const VERSION_KEY = 'appVersion';
             const storedVersion = localStorage.getItem(VERSION_KEY);
@@ -219,8 +219,8 @@
                         </div>
                         <div class="item itemsize settings-item" title="Правила 2024">
                             <div class="item-text-container text" id="2024rules-toggle-item">
-                                <div class="item-title">Переключить на правила 2024</div>
-                                <div class="item-desc">Включить правила D&D 2024.</div>
+                                <div class="item-title">Переключить на правила 2014</div>
+                                <div class="item-desc">Переключает на набор правил D&D 2014 (классический).</div>
                             </div>
                             <div class="item-toggle"><label class="switch">
                                     <input type="checkbox" id="rules2024-switch">

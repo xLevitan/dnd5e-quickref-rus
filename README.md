@@ -12,16 +12,18 @@ A compact, browser-friendly quick reference for *Dungeons & Dragons 5e* (both **
 
 - UI, settings, and all rule cards are in Russian
 - Terminology follows the [**TTG Club**](https://new.ttg.club/glossary) glossary (e.g. *Рывок*, *Отход*, *Засада*, *Лежащий ничком*, *провоцированная атака*)
+- Defaults to the **2024** ruleset (can still switch back to 2014)
 - Behavior and structure of the original project are preserved
 
 **Upstream:** [mfriik/dnd5e-quickref](https://github.com/mfriik/dnd5e-quickref)
 
 ---
 
-## Live view
+## Live preview
 
-- Upstream live demos: [mfriik.github.io/dnd5e-quickref](https://mfriik.github.io/dnd5e-quickref/) · [dnd.milobedzki.pl](https://dnd.milobedzki.pl/)
-- This fork: enable GitHub Pages on the `master` branch if you want a hosted copy under your account
+**https://xlevitan.github.io/dnd5e-quickref-rus/**
+
+Upstream demos: [mfriik.github.io/dnd5e-quickref](https://mfriik.github.io/dnd5e-quickref/) · [dnd.milobedzki.pl](https://dnd.milobedzki.pl/)
 
 ---
 

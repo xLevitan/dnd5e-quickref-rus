@@ -1,6 +1,7 @@
 // Dynamically load the correct data files (2024 or standard) based on localStorage setting
 (function() {
-    var rules2024 = localStorage.getItem('rules2024') === 'true';
+    // Default to 2024 rules when the preference has never been set
+    var rules2024 = localStorage.getItem('rules2024') !== 'false';
     var head = document.getElementsByTagName('head')[0];
 
     // Helper to inject a script tag for a data file
@@ -313,8 +314,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var darkModeCheckbox = document.getElementById('darkmode-switch');
     var rules2024Checkbox = document.getElementById('rules2024-switch');
 
-    // Set initial toggle state from localStorage
-    var rules2024 = localStorage.getItem('rules2024') === 'true';
+    // Set initial toggle state from localStorage (default: 2024 on)
+    var rules2024 = localStorage.getItem('rules2024') !== 'false';
     rules2024Checkbox.checked = rules2024;
 
     // Update the label on load to indicate which ruleset the toggle will switch to
