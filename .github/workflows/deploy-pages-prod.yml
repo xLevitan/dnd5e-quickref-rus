@@ -19,9 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Keep custom domain bundled with the artifact
-      - name: Write CNAME
-        run: echo dnd.milobedzki.pl > CNAME
+      # Serve on the default github.io URL for this fork (no custom domain)
+      - name: Remove upstream CNAME
+        run: rm -f CNAME
 
       # Disable Jekyll so files are served as-is
       - run: touch .nojekyll
