@@ -38,8 +38,8 @@
 function add_quickref_item(parent, data, type) {
     var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
-    var title = data.title || "[no title]";
-    var optional = data.optional || "Standard rule";
+        var title = data.title || "[без названия]";
+    var optional = data.optional || "Стандартное правило";
     var description = data.description || data.subtitle || "";
     var bullets = data.bullets || [];
     var reference = data.reference || "";
@@ -327,13 +327,13 @@ document.addEventListener("DOMContentLoaded", function () {
         var activeLabel = document.getElementById('active-ruleset-label');
 
         if (rules2024Checkbox.checked) {
-            if (titleEl) titleEl.textContent = 'Switch to 2014 Rules';
-            if (descEl) descEl.textContent = 'Switches to the D&D 2014 (legacy) ruleset.';
-            if (activeLabel) activeLabel.textContent = 'Current Ruleset: D&D 2024';
+            if (titleEl) titleEl.textContent = 'Переключить на правила 2014';
+            if (descEl) descEl.textContent = 'Переключает на набор правил D&D 2014 (классический).';
+            if (activeLabel) activeLabel.textContent = 'Текущие правила: D&D 2024';
         } else {
-            if (titleEl) titleEl.textContent = 'Switch to 2024 Rules';
-            if (descEl) descEl.textContent = 'Switches to the D&D 2024 ruleset.';
-            if (activeLabel) activeLabel.textContent = 'Current Ruleset: D&D 2014 (legacy)';
+            if (titleEl) titleEl.textContent = 'Переключить на правила 2024';
+            if (descEl) descEl.textContent = 'Переключает на набор правил D&D 2024.';
+            if (activeLabel) activeLabel.textContent = 'Текущие правила: D&D 2014 (классические)';
         }
     }
     updateRulesToggleLabel();
@@ -357,9 +357,10 @@ document.addEventListener("DOMContentLoaded", function () {
             var item = items[i];
             var ruleType = item.getAttribute('title');
             // Only filter items that are actual quickref rules
-            if (ruleType === 'Optional rule' || ruleType === 'Homebrew rule' || ruleType === 'Standard rule') {
-                var isOptional = ruleType === 'Optional rule';
-                var isHomebrew = ruleType === 'Homebrew rule';
+            if (ruleType === 'Опциональное правило' || ruleType === 'Домашнее правило' || ruleType === 'Стандартное правило' ||
+                ruleType === 'Optional rule' || ruleType === 'Homebrew rule' || ruleType === 'Standard rule') {
+                var isOptional = ruleType === 'Опциональное правило' || ruleType === 'Optional rule';
+                var isHomebrew = ruleType === 'Домашнее правило' || ruleType === 'Homebrew rule';
                 // Show item if:
                 // - It's an optional rule and the optional toggle is ON
                 // - It's a homebrew rule and the homebrew toggle is ON

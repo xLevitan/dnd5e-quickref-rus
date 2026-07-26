@@ -1,53 +1,53 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
-        optional: "Standard rule",
+        title: "Провоцированная атака",
+        optional: "Стандартное правило",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Враг покидает вашу досягаемость",
+        description: "Редко удаётся безрассудно пройти мимо врагов, не подвергая себя опасности",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: An enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Триггер: враждебное существо, которое вы видите, покидает вашу досягаемость.",
+            "Совершите одну рукопашную атаку по провоцирующему существу.",
+            "Атака прерывает перемещение провоцирующего существа и происходит непосредственно перед тем, как оно покинет вашу досягаемость.",
+            "Существа не провоцируют провоцированную атаку при телепортации или когда их перемещает кто-то или что-то без использования их перемещения, действия или реакции."
         ]
     },
     {
-        title: "Readied action",
-        optional: "Standard rule",
+        title: "Подготовленное действие",
+        optional: "Стандартное правило",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Часть действия «Подготовка»",
+        description: "Выполните реакцию, указанную действием «Подготовка»",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: As specified by your <i>Ready</i> action."
+            "Триггер: как указано действием <i>Подготовка</i>."
         ]
     },
     {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Наложить заклинание",
+        optional: "Стандартное правило",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Время накладывания: 1 реакция",
+        description: "Наложить заклинание с временем накладывания 1 реакция",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: As specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Триггер: как указано в заклинании.",
+            "Подробнее см. действие <i>Наложить заклинание</i>."
         ]
     },
     {
-        title: "Grapple **",
-        optional: "Homebrew rule",
+        title: "Захват **",
+        optional: "Домашнее правило",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Особая рукопашная атака",
+        description: "Попытка схватить существо или бороться с ним",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Reaction</i> action to make a special opportunity attack, a grapple. If you're able to make multiple attacks with the Opportunity Attack action, this attack replaces all of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Вы можете использовать <i>Реакцию</i>, чтобы совершить особую провоцированную атаку — захват. Если провоцированной атакой можно совершить несколько атак, эта атака заменяет все из них.",
+            "Цель захвата должна быть не более чем на одну категорию размера больше вас и находиться в вашей досягаемости.",
+            "Используя хотя бы одну свободную руку, вы пытаетесь схватить цель, совершая проверку захвата — проверку Силы (Атлетика), против которой цель совершает проверку Силы (Атлетика) или Ловкости (Акробатика) (цель выбирает характеристику).",
+            "При успехе цель получает состояние «Схваченный» (её скорость становится 0)."
         ]
     },    
 ]

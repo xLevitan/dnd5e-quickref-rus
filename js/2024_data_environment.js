@@ -1,162 +1,162 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
-        optional: "Standard rule",
+        title: "Слабо заслонённое",
+        optional: "Стандартное правило",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage.",
+        subtitle: "Помеха на Внимательность",
+        description: "Тусклый свет, местный туман, умеренная растительность.",
         reference: "PHB, pg. 19.",
         bullets: [
-            "Creatures have <b>Disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "Существа имеют <b>помеху на проверки Мудрости (Внимательность)</b>, основанные на зрении."
         ]
     },
     {
-        title: "Heavily obscured",
-        optional: "Standard rule",
+        title: "Сильно заслонённое",
+        optional: "Стандартное правило",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
+        subtitle: "Фактически ослепление",
+        description: "Тьма, непрозрачный туман, густая растительность",
         reference: "PHB, pg. 19.",
         bullets: [
-            "Creatures have the <b>Blinded</b> condition, when trying to see something."
+            "Существа получают состояние <b>Ослеплённый</b>, когда пытаются что-то увидеть."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
-        optional: "Standard rule",
+        title: "Яркий свет",
+        optional: "Стандартное правило",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
+        subtitle: "Обычное зрение",
+        description: "Яркий свет позволяет большинству существ видеть нормально",
         reference: "PHB, pg. 19.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Пасмурные дни всё равно дают яркий свет, как и факелы, фонари, костры и другие источники освещения в определённом радиусе."
         ]
     },
     {
-        title: "Dim light",
-        optional: "Standard rule",
+        title: "Тусклый свет",
+        optional: "Стандартное правило",
         icon: "semi-closed-eye",
-        optional: "Standard rule",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
+        optional: "Стандартное правило",
+        subtitle: "Слабо заслонённое",
+        description: "Тусклый свет, также называемый тенью",
         reference: "PHB, pg. 19.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Создаёт область <b>слабо заслонённую</b>.",
+            "Область тусклого света обычно является границей между источником яркого света, например факелом, и окружающей тьмой.",
+            "Мягкий свет сумерек и рассвета также считается тусклым. Особенно яркая полная луна может заливать местность тусклым светом."
         ]
     },
     {
-        title: "Darkness",
-        optional: "Standard rule",
-        optional: "Standard rule",
+        title: "Тьма",
+        optional: "Стандартное правило",
+        optional: "Стандартное правило",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
+        subtitle: "Сильно заслонённое",
+        description: "Тьма создаёт сильно заслонённую область",
         reference: "PHB, pg. 19.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Создаёт область <b>сильно заслонённую</b>.",
+            "Персонажи сталкиваются с тьмой на улице ночью (даже при большинстве лунных ночей), в неосвещённом подземелье или подземном хранилище, а также в области магической тьмы."
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
-        optional: "Standard rule",
+        title: "Слепое зрение",
+        optional: "Стандартное правило",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "You can see within a specified range without relying on physical sight.",
+        subtitle: "Восприятие без зрения",
+        description: "Вы можете видеть в пределах указанной дистанции, не полагаясь на физическое зрение.",
         reference: "PHB, pg. 361.",
         bullets: [
-            "You can see anything that isn't behind Total Cover even if you have the Blinded condition or are in Darkness.",
-            "You can see something that has the Invisible condition.",
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Вы можете видеть всё, что не находится за полным укрытием, даже если у вас есть состояние Ослеплённый или вы находитесь в тьме.",
+            "Вы можете видеть существо с состоянием Невидимый.",
+            "Существа без глаз, например слизи, а также существа с эхолокацией или обострёнными чувствами, например летучие мыши и истинные драконы, обладают этим чувством."
         ]
     },
     {
-        title: "Darkvision",
-        optional: "Standard rule",
+        title: "Тёмное зрение",
+        optional: "Стандартное правило",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
+        subtitle: "Ограниченное зрение в темноте",
+        description: "Существо с тёмным зрением лучше видит в темноте или при слабом освещении в пределах определённого радиуса",
         reference: "PHB, pg. 365",
         bullets: [
-            "Within a specified range, a creature with darkvision can see in Dim Light as if it were Bright Light and in Darkness as if it were Dim Light.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "В пределах указанной дистанции существо с тёмным зрением видит при тусклом свете так, будто это яркий свет, а в тьме — так, будто это тусклый свет.",
+            "Однако в темноте существо не различает цвета, только оттенки серого.",
+            "Многие существа в мирах D&D, особенно обитающие под землёй, обладают тёмным зрением."
         ]
     },
     {
-        title: "Tremorsense",
-        optional: "Standard rule",
+        title: "Чувство вибрации",
+        optional: "Стандартное правило",
         icon: "semi-closed-eye",
-        subtitle: "Sense vibrations",
-        description: "pinpoint location of creatures in contact with the same surfaces you are",
+        subtitle: "Ощущение вибраций",
+        description: "Точно определяет местоположение существ, контактирующих с той же поверхностью, что и вы",
         reference: "PHB, pg. 377.",
         bullets: [
-            "Within a specified range, a creature with Tremorsense can pinpoint the location of creatures and moving objects, provided that the creature with Tremorsense and anything it is detecting are both in contact with the same surface or liquid.",
-            "Tremorsense can't detect creatures in the air, and it doesn't count as a form of sight."
+            "В пределах указанной дистанции существо с чувством вибрации может точно определить местоположение существ и движущихся предметов, если существо с чувством вибрации и то, что оно обнаруживает, оба контактируют с одной поверхностью или жидкостью.",
+            "Чувство вибрации не обнаруживает существ в воздухе и не считается формой зрения."
         ]
     },
     {
-        title: "Truesight",
-        optional: "Standard rule",
+        title: "Истинное зрение",
+        optional: "Стандартное правило",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "Your vision is enhanced within a specified range, it pierces the following",
+        subtitle: "Зрение в темноте",
+        description: "Ваше зрение усилено в пределах указанной дистанции и проникает сквозь следующее",
         reference: "PHB, pg. 377.",
         bullets: [
-            "You can see in normal and magical Darkness.",
-            "You can see creatures and objects that have the Invisible condition.",
-            "Visual illusions appear transparent to you, and you automatically succeed on saving throws against them.",
-            "You discern the true form of any creature or object you see that has been transformed by magic.",
-            "You see into the Ethereal Plane."
+            "Вы можете видеть в обычной и магической тьме.",
+            "Вы можете видеть существ и предметы с состоянием Невидимый.",
+            "Зрительные иллюзии кажутся вам прозрачными, и вы автоматически преуспеваете в спасбросках против них.",
+            "Вы видите истинную форму любого существа или предмета, преобразованного магией.",
+            "Вы видите на Эфирный план."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
-        optional: "Standard rule",
+        title: "Укрытие наполовину",
+        optional: "Стандартное правило",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        subtitle: "Низкая стена, мебель, существа",
+        description: "Цель имеет укрытие наполовину, если препятствие закрывает минимум половину её тела",
         reference: "PHB, pg. 25-26.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Препятствием может быть низкая стена, крупный предмет мебели, узкий ствол дерева или существо — враг или союзник.",
+            "Цель с укрытием наполовину получает <b>+2 к КД и спасброскам Ловкости</b>.",
+            "Если цель находится за несколькими источниками укрытия, применяется только наиболее защитная степень укрытия."
         ]
     },
     {
-        title: "Three-quarters cover",
-        optional: "Standard rule",
+        title: "Укрытие на три четверти",
+        optional: "Стандартное правило",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        subtitle: "Решётка, бойница",
+        description: "Цель имеет укрытие на три четверти, если примерно три четверти её тела закрыты препятствием",
         reference: "PHB, pg. 25-26.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Препятствием может быть решётка, бойница или толстый ствол дерева.",
+            "Цель с укрытием на три четверти получает <b>+5 к КД и спасброскам Ловкости</b>.",
+            "Если цель находится за несколькими источниками укрытия, применяется только наиболее защитная степень укрытия."
         ]
     },
     {
-        title: "Full cover",
-        optional: "Standard rule",
+        title: "Полное укрытие",
+        optional: "Стандартное правило",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "Полностью скрыта",
+        description: "Цель имеет полное укрытие, если она полностью скрыта препятствием",
         reference: "PHB, pg. 25-26.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Цель с полным укрытием <b>не может быть выбрана напрямую</b> атакой или заклинанием, хотя некоторые заклинания могут достичь такой цели, включив её в область действия.",
+            "Если цель находится за несколькими источниками укрытия, применяется только наиболее защитная степень укрытия."
         ]
     }
 ]

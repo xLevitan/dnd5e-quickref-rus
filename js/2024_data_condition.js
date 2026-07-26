@@ -1,220 +1,220 @@
 data_condition = [
     {
-        title: "Blinded",
-        optional: "Standard rule",
+        title: "Ослеплённый",
+        optional: "Стандартное правило",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "Вы не видите",
+        description: "Вы не видите",
         reference: "PHB, pg. 361.",
         bullets: [
-            "You automatically fail any ability check that requires sight.",
-            "You have Disadvantage on attack rolls.",
-            "Attack rolls against you have Advantage."
+            "Вы автоматически проваливаете любую проверку характеристики, требующую зрения.",
+            "У вас помеха на броски атаки.",
+            "Броски атаки по вам имеют преимущество."
         ]
     },
     {
-        title: "Charmed",
-        optional: "Standard rule",
+        title: "Очарованный",
+        optional: "Стандартное правило",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Вы очарованы",
+        description: "Вы очарованы другим существом",
         reference: "PHB, pg. 363.",
         bullets: [
-            "You can't attack the charmer or target them with damaging abilities or magical effects.",
-            "The charmer has Advantage on ability checks to interact with you socially."
+            "Вы не можете атаковать очаровавшего вас или направлять на него способности или магические эффекты, наносящие урон.",
+            "Очаровавший вас получает преимущество на проверки характеристик при социальном взаимодействии с вами."
         ]
     },
     {
-        title: "Deafened",
-        optional: "Standard rule",
+        title: "Оглохший",
+        optional: "Стандартное правило",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "Вы не слышите",
+        description: "Вы не слышите",
         reference: "PHB, pg. 365.",
         bullets: [
-            "You automatically fail any ability check that requires hearing."
+            "Вы автоматически проваливаете любую проверку характеристики, требующую слуха."
         ]
     },
     {
-        title: "Exhaustion",
-        optional: "Standard rule",
+        title: "Истощённый",
+        optional: "Стандартное правило",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Вы истощены",
+        description: "Истощение измеряется шестью степенями",
         reference: "PHB, pg. 366.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>D20 Tests</th><th></th><th></th><th>Speed</th></tr><tr><td>1</td><td></td><td></td><td>-2</td><td></td><td></td><td>-5 ft.</td></tr><tr><td>2</td><td></td><td></td><td>-4</td><td></td><td></td><td>-10 ft.</td></tr><tr><td>3</td><td></td><td></td><td>-6</td><td></td><td></td><td>-15 ft.</td></tr><tr><td>4</td><td></td><td></td><td>-8</td><td></td><td></td><td>-20 ft.</td></tr><tr><td>5</td><td></td><td></td><td>-10</td><td></td><td></td><td>-25 ft.</td></tr><tr><td>6</td><td></td><td></td><td>Death</td><td></td><td></td><td>Death</td></tr></table>",
-            "This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
-            "Finishing a long rest reduces your exhaustion level by 1. When your Exhaustion level reaches 0, the condition ends."
+            "<table><tr><th>Уровень</th><th></th><th></th><th style='text-align:left'>Тесты к20</th><th></th><th></th><th>Скорость</th></tr><tr><td>1</td><td></td><td></td><td>−2</td><td></td><td></td><td>−5 фт.</td></tr><tr><td>2</td><td></td><td></td><td>−4</td><td></td><td></td><td>−10 фт.</td></tr><tr><td>3</td><td></td><td></td><td>−6</td><td></td><td></td><td>−15 фт.</td></tr><tr><td>4</td><td></td><td></td><td>−8</td><td></td><td></td><td>−20 фт.</td></tr><tr><td>5</td><td></td><td></td><td>−10</td><td></td><td></td><td>−25 фт.</td></tr><tr><td>6</td><td></td><td></td><td>Смерть</td><td></td><td></td><td>Смерть</td></tr></table>",
+            "Это состояние накапливается. Каждый раз, когда вы его получаете, ваша степень истощения увеличивается на 1. Вы умираете, если степень истощения достигает 6.",
+            "Завершение продолжительного отдыха снижает степень истощения на 1. Когда степень истощения достигает 0, состояние прекращается."
         ]
     },
     {
-        title: "Frightened",
-        optional: "Standard rule",
+        title: "Испуганный",
+        optional: "Стандартное правило",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Вы испуганы",
+        description: "Вы испуганы",
         reference: "PHB, pg. 367.",
         bullets: [
-            "You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.",
-            "You can't willingly move closer to the source of fear."
+            "У вас помеха на проверки характеристик и броски атаки, пока источник страха находится в поле зрения.",
+            "Вы не можете добровольно приближаться к источнику страха."
         ]
     },
     {
-        title: "Grappled",
-        optional: "Standard rule",
+        title: "Схваченный",
+        optional: "Стандартное правило",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Вы схвачены",
+        description: "Вы схвачены",
         reference: "PHB, pg. 367.",
         bullets: [
-            "Your speed is 0 and can't increase.",
-            "You have Disadvantage on attack rolls against any target other than the grappler.",
-            "The grappler can drag or carry you when it moves, but every foot of movement costs 1 extra foot unless you are Tiny or 2 or more sizes smaller."
+            "Ваша скорость равна 0 и не может увеличиваться.",
+            "У вас помеха на броски атаки по любой цели, кроме схватившего вас.",
+            "Схвативший вас может тащить или нести вас при перемещении, но каждый фут перемещения стоит 1 дополнительный фут, если только вы не Крошечного размера или не меньше его минимум на 2 категории размера."
         ]
     },
     {
-        title: "Incapacitated",
-        optional: "Standard rule",
+        title: "Недееспособный",
+        optional: "Стандартное правило",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Вы не можете совершать действия или реакции",
+        description: "Вы не можете совершать действия или реакции",
         reference: "PHB, pg. 369.",
         bullets: [
-            "Your Concentration is broken.",
-            "You can't speak.",
-            "You have Disadvantage on Initiative rolls."
+            "Ваша концентрация прерывается.",
+            "Вы не можете говорить.",
+            "У вас помеха на проверки инициативы."
         ]
     },
     {
-        title: "Invisible",
-        optional: "Standard rule",
+        title: "Невидимый",
+        optional: "Стандартное правило",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Вас нельзя увидеть",
+        description: "Вас нельзя увидеть без магии или особого чувства",
         reference: "PHB, pg. 370.",
         bullets: [
-            "You have Advantage on Initiative rolls and attack rolls unless your target can somehow see you.",
-            "Attack rolls against you have Disadvantage, unless your attacker can somehow see you",
-            "You aren't affected by any effect that requires its target to be seen unless the effect's creator can somehow see you. Any equipment you are wearing or carrying is also concealed."
+            "У вас преимущество на проверки инициативы и броски атаки, если только цель каким-то образом не может вас видеть.",
+            "Броски атаки по вам имеют помеху, если только атакующий каким-то образом не может вас видеть.",
+            "На вас не действуют эффекты, требующие, чтобы цель была видима, если только создатель эффекта каким-то образом не может вас видеть. Любое снаряжение, которое вы носите или несёте, также скрыто."
         ]
     },
     {
-        title: "Paralyzed",
-        optional: "Standard rule",
+        title: "Парализованный",
+        optional: "Стандартное правило",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Вы парализованы",
+        description: "Вы не можете ничего делать",
         reference: "PHB, pg. 371.",
         bullets: [
-            "You have the Incapacitated condition.",
-            "Your speed is 0 and can't increase.",
-            "Attack rolls against you have Advantage and any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "У вас есть состояние Недееспособный.",
+            "Ваша скорость равна 0 и не может увеличиваться.",
+            "Броски атаки по вам имеют преимущество, а любая атака, попавшая по вам, становится критическим попаданием, если атакующий находится в пределах 5 фт. от вас.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости."
         ]
     },
     {
-        title: "Petrified",
-        optional: "Standard rule",
+        title: "Окаменевший",
+        optional: "Стандартное правило",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Вы превращены в камень",
+        description: "Вы превращаетесь вместе с любыми немагическими предметами, которые носите или несёте, в твёрдое неодушевлённое вещество (обычно камень)",
         reference: "PHB, pg. 372.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You have the Incapacitated condition.",
-            "Your speed is 0 and can't increase.",
-            "Attack rolls against you have Advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You have Immunity to the Poisoned condition."
+            "Ваш вес увеличивается в десять раз, и вы перестаёте стареть.",
+            "У вас есть состояние Недееспособный.",
+            "Ваша скорость равна 0 и не может увеличиваться.",
+            "Броски атаки по вам имеют преимущество.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости.",
+            "У вас сопротивление ко всему урону.",
+            "У вас иммунитет к состоянию Отравленный."
         ]
     },
     {
-        title: "Poisoned",
-        optional: "Standard rule",
+        title: "Отравленный",
+        optional: "Стандартное правило",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Вы отравлены",
+        description: "Вы отравлены",
         reference: "PHB, pg. 372.",
         bullets: [
-            "You have Disadvantage on attack rolls and ability checks."
+            "У вас помеха на броски атаки и проверки характеристик."
         ]
     },
     {
-        title: "Prone",
-        optional: "Standard rule",
+        title: "Лежащий ничком",
+        optional: "Стандартное правило",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Вы лежите ничком",
+        description: "Вы лежите ничком",
         reference: "PHB, pg. 372.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up. If your speed is 0, you can't stand up.",
-            "You have Disadvantage on attack rolls.",
-            "Attack rolls against you have Advantage if the attacker is within 5 feet of you, otherwise the attack roll has Disadvantage."
+            "Единственный вариант перемещения — ползание, если вы не встаёте. Если ваша скорость равна 0, вы не можете встать.",
+            "У вас помеха на броски атаки.",
+            "Броски атаки по вам имеют преимущество, если атакующий находится в пределах 5 фт. от вас; в противном случае бросок атаки имеет помеху."
         ]
     },
     {
-        title: "Restrained",
-        optional: "Standard rule",
+        title: "Опутанный",
+        optional: "Стандартное правило",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Вы опутаны",
+        description: "Вы опутаны",
         reference: "PHB, pg. 373.",
         bullets: [
-            "Your speed is 0 and can't increase.",
-            "You have Disadvantage on attack rolls.",
-            "Attack rolls against you have Advantage.",
-            "You have Disadvantage on Dexterity saving throws."
+            "Ваша скорость равна 0 и не может увеличиваться.",
+            "У вас помеха на броски атаки.",
+            "Броски атаки по вам имеют преимущество.",
+            "У вас помеха на спасброски Ловкости."
         ]
     },
     {
-        title: "Stunned",
-        optional: "Standard rule",
+        title: "Ошеломлённый",
+        optional: "Стандартное правило",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Вы ошеломлены",
+        description: "Вы ошеломлены",
         reference: "PHB, pg. 376.",
         bullets: [
-            "You have the Incapacitated condition.",
-            "Attack rolls against you have Advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "У вас есть состояние Недееспособный.",
+            "Броски атаки по вам имеют преимущество.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости."
         ]
     },
     {
-        title: "Unconscious",
-        optional: "Standard rule",
+        title: "Бессознательный",
+        optional: "Стандартное правило",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Вы без сознания",
+        description: "Вы без сознания",
         reference: "PHB, pg. 377.",
         bullets: [
-            "You have the Incapacitated and Prone conditions and you drop whatever you're holding.",
-            "Your speed is 0 and can't increase.",
-            "Attack rolls against you have Advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "У вас есть состояния Недееспособный и Лежащий ничком, и вы роняете всё, что держите.",
+            "Ваша скорость равна 0 и не может увеличиваться.",
+            "Броски атаки по вам имеют преимущество.",
+            "Любая атака, попавшая по вам, становится критическим попаданием, если атакующий находится в пределах 5 фт. от вас.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости.",
         ]
     },
     {
-        title: "Dying",
-        optional: "Standard rule",
+        title: "При смерти",
+        optional: "Стандартное правило",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Вы при смерти",
+        description: "У вас 0 хитов, и вы при смерти",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness and are no longer dying.",
-            "When you start your turn with 0 hit points, you must make a Death Saving Throw without modifiers.",
-            "10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "If you take damage while dying, you suffer a failure. If it's from a critical hit, you suffer 2 failures.",
-            "You can be stabilized by an ally taking the Help (Stabilize) action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you are at 0 HP, still unconcious, but no longer dying. you regain 1 hit point after 1d4 hours if not healed."
+            "Если урон снижает вас до 0 хитов, но не убивает, вы теряете сознание и находитесь при смерти.",
+            "Если вы получаете исцеление, вы немедленно приходите в сознание и больше не находитесь при смерти.",
+            "Когда вы начинаете ход с 0 хитов, вы должны совершить спасбросок от смерти без модификаторов.",
+            "10 и выше — успех, 9 и ниже — провал.",
+            "При третьем успехе вы стабилизируетесь.",
+            "При третьем провале вы умираете.",
+            "Выпавшая 1 считается за два провала.",
+            "Выпавшая 20 немедленно восстанавливает вам 1 хит.",
+            "Если вы получаете урон, находясь при смерти, вы получаете один провал. Если это критическое попадание — два провала.",
+            "Союзник может стабилизировать вас, совершив действие Помощь (стабилизация) и преуспев в проверке Мудрости (Медицина) со СЛ 10.",
+            "Будучи стабильным, вы остаётесь с 0 хитов, без сознания, но больше не при смерти. Вы восстанавливаете 1 хит через 1d4 часа, если вас не исцелили."
         ]
     }
 ]

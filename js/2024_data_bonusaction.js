@@ -1,50 +1,50 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
-        optional: "Standard rule",
+        title: "Атака второй рукой",
+        optional: "Стандартное правило",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Используется с действием Атака",
+        description: "Атаковать второй рукой",
         reference: "PHB, pgs. 213.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light weapon.",
-            "Perform a single attack with a different light weapon.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
+            "Доступно только если вы совершаете действие <i>Атака</i> и атакуете лёгким оружием.",
+            "Совершите одну атаку другим лёгким оружием.",
+            "Вы не добавляете модификатор характеристики к урону от бонусной атаки, если этот модификатор не отрицательный."
         ]
     },
     {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Наложить заклинание",
+        optional: "Стандартное правило",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Время накладывания: 1 бонусное действие",
+        description: "Наложить заклинание с временем накладывания 1 бонусное действие",
         reference: "PHB, pgs. 235-238, 363.",
         bullets: [
-            "On a turn, you can expend only one spell slot to cast a spell. You can't, for example, cast a spell with a spell slot as your action and another one using your bonus action on the same turn.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "За ход вы можете потратить только одну ячейку заклинания на наложение заклинания. Например, вы не можете наложить заклинание с ячейкой в качестве действия и другое, используя бонусное действие, в тот же ход.",
+            "Подробнее см. действие <i>Наложить заклинание</i>."
         ]
     },
     {
-        title: "Use class feature",
-        optional: "Standard rule",
+        title: "Умение класса",
+        optional: "Стандартное правило",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Некоторые умения требуют бонусного действия",
+        description: "Использовать расовое или классовое умение, требующее бонусного действия",
+        reference: "Подробнее см. страницу класса.",
         bullets: [
 
         ]
     },
     {
-        title: "Drink a potion ",
-        optional: "Standard rule",
+        title: "Выпить зелье",
+        optional: "Стандартное правило",
         icon: "potion-ball",
-        subtitle: "Roll for the effect",
-        description: "Roll the dice as per the description of the potion",
+        subtitle: "Бросьте кости для эффекта",
+        description: "Бросьте кости согласно описанию зелья",
         bullets: [
-            "Using a Potion: Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action.", 
-            "Applying an oil might take longer as specified in its description.",
-            "Once used, a potion takes effect immediately, and it is used up."
+            "Использование зелья: зелья — расходуемые предметы. Выпить зелье или дать его другому существу требует бонусного действия.",
+            "Нанесение масла может занять больше времени, как указано в его описании.",
+            "После использования зелье действует немедленно и расходуется."
         ],
     },
     

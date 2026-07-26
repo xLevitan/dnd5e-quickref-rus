@@ -1,78 +1,78 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
-        optional: "Standard rule",
+        title: "Атака второй рукой",
+        optional: "Стандартное правило",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Используется с действием «Атака»",
+        description: "Атаковать второй рукой",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Доступно только если вы совершаете действие <i>Атака</i> и атакуете лёгким рукопашным оружием, которое держите в одной руке.",
+            "Совершите одну атаку другим лёгким рукопашным оружием, которое держите в другой руке.",
+            "Вы не добавляете модификатор характеристики к урону от бонусной атаки, если этот модификатор не отрицательный.",
+            "Если любое из оружий имеет свойство «метательное», вы можете метнуть его вместо рукопашной атаки."
         ]
     },
     {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Наложить заклинание",
+        optional: "Стандартное правило",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Время накладывания: 1 бонусное действие",
+        description: "Наложить заклинание с временем накладывания 1 бонусное действие",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Вы не можете в один ход наложить заклинание действием и другое заклинание бонусным действием, за исключением случая, когда действием накладывается заговор.",
+            "Подробнее см. действие <i>Наложить заклинание</i>."
         ]
     },
     {
-        title: "Use class feature",
-        optional: "Standard rule",
+        title: "Умение класса",
+        optional: "Стандартное правило",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Некоторые умения требуют бонусного действия",
+        description: "Использовать расовое или классовое умение, требующее бонусного действия",
+        reference: "Подробнее см. страницу класса.",
         bullets: [
 
         ]
     },
     {
-        title: "Overrun*",
-        optional: "Optional rule",
+        title: "Прорыв*",
+        optional: "Опциональное правило",
         icon: "shield-bash",
-        subtitle: "Run through a hostile space",
-        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
+        subtitle: "Пробежать через враждебное пространство",
+        description: "Когда существо пытается пройти через пространство враждебного существа, оно может попытаться прорваться силой.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
-            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
-            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
+            "(Опциональное правило):",
+            "Бонусным действием перемещающееся существо совершает проверку Силы (Атлетика), состязаясь с проверкой Силы (Атлетика) враждебного существа.",
+            "Существо, пытающееся прорваться, получает преимущество на эту проверку, если оно больше враждебного существа, или помеху, если меньше.",
+            "Если перемещающееся существо выигрывает состязание, оно может один раз в этот ход пройти через пространство враждебного существа."
         ]
     },
     {
-        title: "Tumble*",
-        optional: "Optional rule",
+        title: "Кувырок*",
+        optional: "Опциональное правило",
         icon: "tumble",
-        subtitle: "Tumble through a hostile space",
-        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
+        subtitle: "Перекатиться через враждебное пространство",
+        description: "Существо может попытаться перекатиться через пространство враждебного существа, уворачиваясь и проскальзывая мимо противника.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
-            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+            "(Опциональное правило):",
+            "Бонусным действием совершающий кувырок совершает проверку Ловкости (Акробатика), состязаясь с проверкой Ловкости (Акробатика) враждебного существа.",
+            "Если совершающий кувырок выигрывает состязание, он может один раз в этот ход пройти через пространство враждебного существа."
         ]
     },
     {
-        title: "Drink a potion **",
-        optional: "Homebrew rule",
+        title: "Выпить зелье **",
+        optional: "Домашнее правило",
         icon: "potion-ball",
-        subtitle: "Roll for the effect",
-        description: "Roll the dice as per the description of the potion",
+        subtitle: "Бросайте кости за эффект",
+        description: "Бросайте кости согласно описанию зелья",
         bullets: [
-            "(Optional Rule):",
-            "Normally Drinking potion counts as an <i>Action</i> and will heal by maximum amount.",
-            "When using it as <i>Bonus action</i>, roll the dice as per the description of the potion."
+            "(Опциональное правило):",
+            "Обычно выпить зелье считается <i>Действием</i> и исцеляет на максимум.",
+            "При использовании как <i>Бонусное действие</i> бросайте кости согласно описанию зелья."
         ],
     },
 ]

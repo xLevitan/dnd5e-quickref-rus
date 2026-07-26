@@ -1,38 +1,38 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
-        optional: "Standard rule",
+        title: "Провоцированная атака",
+        optional: "Стандартное правило",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Враг покидает вашу зону досягаемости",
+        description: "Редко можно беспечно проходить мимо врагов, не подвергая себя опасности",
         reference: "PHB, pg. 371.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach using its action, its Bonus Action, its Reaction or one of its Speeds.",
-            "Make one melee attack with a weapon or an unarmed strike against the provoking creature.",
-            "The attack occurs right before the creature leaves your reach."
+            "Условие: враждебное существо, которое вы видите, покидает вашу зону досягаемости, используя действие, бонусное действие, реакцию или одну из своих скоростей.",
+            "Совершите одну рукопашную атаку оружием или безоружным ударом по спровоцировавшему существу.",
+            "Атака происходит непосредственно перед тем, как существо покидает вашу зону досягаемости."
         ]
     },
     {
-        title: "Readied action",
-        optional: "Standard rule",
+        title: "Подготовленное действие",
+        optional: "Стандартное правило",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Часть действия Подготовка",
+        description: "Выполнить реакцию, указанную действием Подготовка",
         reference: "PHB, pg. 372-373.",
         bullets: [
-            "Trigger and Reaction: specified by your <i>Ready</i> action."
+            "Условие и реакция: определяются действием <i>Подготовка</i>."
         ]
     },
     {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Наложить заклинание",
+        optional: "Стандартное правило",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Время накладывания: 1 реакция",
+        description: "Наложить заклинание с временем накладывания 1 реакция",
         reference: "PHB, pg. 235-238.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Условие: определяется заклинанием.",
+            "Подробнее см. действие <i>Наложить заклинание</i>."
         ]
     }
 ]
